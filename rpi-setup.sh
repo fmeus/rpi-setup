@@ -13,9 +13,6 @@ sudo apt-get -y install git
 # Install screen
 sudo apt-get -y install screen
 
-# Install ahavi-daemon (seems to be installed by default now)
-# sudo apt-get install avahi-daemon
-
 # Install MySQL
 sudo apt-get -y install mysql-server
 
