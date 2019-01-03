@@ -1,8 +1,13 @@
 #!/bin/bash
 
-#
-# Addition setup for Debian based Raspberry Pi Operating Systems (i.e. Raspbian)
-#
+# Function
+# --------
+# Perform additional setup for Debian bases Raspberry Pi OS (i.e. Raspbian)
+# ======================================================================
+# Parameters
+# ----------
+# 1 - New hostname for the Raspberry Pi
+# ======================================================================
 
 # Update package lists and upgrade packages
 sudo apt-get update
