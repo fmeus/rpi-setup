@@ -6,7 +6,7 @@
 
 # Update package lists and upgrade packages
 sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get -y upgrade
 
 # Install git client and screen
 sudo apt-get -y install git screen
