@@ -16,6 +16,11 @@ sudo apt-get -y upgrade
 # Install git client and screen
 sudo apt-get -y install git screen
 
+# Cleanup local repository
+sudo rm -f /var/cache/apt/*cache.bin
+sudo apt-get --yes autoclean
+sudo apt-get --yes clean
+
 # Set hostname
 sudo raspi-config nonint do_hostname %1.local
 
