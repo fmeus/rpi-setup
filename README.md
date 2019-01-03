@@ -9,7 +9,3 @@ Installs git and screen. Also allows for timezone update. All installed packages
 `rpi-setup.sh`
 
 Same as `rpi-init.sh` but also installs PHP, Apache and MySQL
-
-`rpi-cleanup`
-
-Removes some caches and performes both `autoclean` and `clean` operations
