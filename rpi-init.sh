@@ -26,3 +26,6 @@ sudo update-locale en_US.UTF-8
 
 # Set timezone to Europe/Amsterdam
 sudo timedatectl set-timezone Europe/Amsterdam
+
+# Change password for pi-account
+passwd pi
