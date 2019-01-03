@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 #
 # Addition setup for Debian based Raspberry Pi Operating Systems (i.e. Raspbian)
