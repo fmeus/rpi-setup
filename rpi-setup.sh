@@ -7,11 +7,8 @@
 # Perform initial setup
 ./rpi-init.sh
 
-# Install MySQL
-sudo apt-get -y install mysql-server
-
-# Add MySQL support for Python
-sudo apt-get -y install python-mysqldb
+# Install MySQL and Python support
+sudo apt-get -y install mysql-server python-mysqldb
 
 # Secure MySQL
 sudo mysql_secure_installation
@@ -26,3 +23,8 @@ sudo apt-get install -y php-apc
 # Restart services
 sudo service apache2 restart
 sudo service mysql restart
+
+# Cleanup local repository
+sudo rm -f /var/cache/apt/*cache.bin
+sudo apt-get --yes autoclean
+sudo apt-get --yes clean
